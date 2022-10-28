@@ -5,8 +5,4 @@ module "s3_bucket" {
   acl    = "private"
   bucket_prefix = "kaiyuan-tan"
 
-  versioning = {
-    enabled = true
-  }
-
 }
